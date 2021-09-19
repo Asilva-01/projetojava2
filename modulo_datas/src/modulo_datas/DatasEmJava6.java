@@ -5,6 +5,7 @@ import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 
 public class DatasEmJava6 {
 	
@@ -14,16 +15,16 @@ public class DatasEmJava6 {
 		
 		LocalDate dataAtual = LocalDate.now();
 		
-		System.out.println("Data Atual: " + dataAtual);
+		System.out.println("Data Atual: " + dataAtual.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));
 		
 		LocalTime horaAtual = LocalTime.now();
 		
-		System.out.println("Hora Atual: " + horaAtual);
+		System.out.println("Hora Atual: " + horaAtual.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
 
 		
 		LocalDateTime dataAtualhoraAtual = LocalDateTime.now();
 		
-		System.out.println("data e hora atual : " +   dataAtualhoraAtual);
+		System.out.println("data e hora atual : " +  dataAtualhoraAtual.format(DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm")));
 
 		
 		
