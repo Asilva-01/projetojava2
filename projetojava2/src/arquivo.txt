@@ -1,15 +1,3 @@
-Alex Egídio;pessoa1@gmail.com;50 
+Alex Egidio;pessoa1@gmail.com;50 
 Malan Mala;pessoa2@gmail.com;33 
-Elano Armínio;pessoa3@gmail.com;44 
-
-------------------------------------------
-Texto da minha linha 1 
-Texto da minha linha 2 
-Texto da minha linha 3 
-Texto da minha linha 4 
-Texto da minha linha 5 
-Texto da minha linha 6 
-Texto da minha linha 7 
-Texto da minha linha 8 
-Texto da minha linha 9 
-Texto da minha linha 10 
+Elano Arminio;pessoa3@gmail.com;44 

@@ -4,8 +4,8 @@ public class Pessoa {
 	private String nome;
 	
 	private String email;
-	
-	private int idade;
+
+	private String idade;
 
 	public String getNome() {
 		return nome;
@@ -23,16 +23,20 @@ public class Pessoa {
 		this.email = email;
 	}
 
-	public int getIdade() {
+	public String getIdade() {
 		return idade;
 	}
 
-	public void setIdade(int idade) {
-		this.idade = idade;
+	public void setIdade(String dados) {
+		this.idade = dados;
+	}
+
+	@Override
+	public String toString() {
+		return "Pessoa [nome=" + nome + ", email=" + email + ", idade=" + idade + "]";
 	}
 
 
-	
-	
+
 
 }
