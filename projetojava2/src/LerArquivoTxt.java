@@ -27,7 +27,7 @@ public class LerArquivoTxt {
 					Pessoa pessoa = new Pessoa();
 					pessoa.setNome(dados[0]);
 					pessoa.setEmail(dados[1]);
-					pessoa.setIdade(dados[2]);
+					pessoa.setIdade(Integer.parseInt(dados[2]));
 					
 					pessoas.add(pessoa);
 					

@@ -5,7 +5,7 @@ public class Pessoa {
 	
 	private String email;
 
-	private String idade;
+	private int idade;
 
 	public String getNome() {
 		return nome;
@@ -23,12 +23,12 @@ public class Pessoa {
 		this.email = email;
 	}
 
-	public String getIdade() {
+	public int getIdade() {
 		return idade;
 	}
 
-	public void setIdade(String dados) {
-		this.idade = dados;
+	public void setIdade(int idade) {
+		this.idade = idade;
 	}
 
 	@Override
